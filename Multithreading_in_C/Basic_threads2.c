@@ -6,13 +6,13 @@ void *threadFunction(void* args)
 {
    while(1)
    {
-      printf("I am thredFunction. \n");
+      printf("I am threadFunction. \n");
    }
 }
 
 int main()
 {
-   /*creatin thread id*/
+   /*creating thread id*/
    pthread_t id;
    int ret;
    

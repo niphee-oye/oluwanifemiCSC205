@@ -10,7 +10,7 @@ void *myThreadAdd(void *vargp)
 {
 	   int *myid = (int *)vargp; //Store the value argument passed to this thread
 	   static int age = 17; //Create a static variable to observe its changes
-	   ++age; ++grade; //Chenge static and global variable
+	   ++age; ++grade; //Change static and global variable
 	   printf("Thread ID: %d, Age: %d, Grade: %d\n", *myid, ++age, ++grade);
  }
  
